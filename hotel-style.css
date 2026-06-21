@@ -393,3 +393,72 @@ footer{
 footer p{
     margin-bottom: 0;
 }
+
+@media (max-width: 768px){
+
+    .hero-content{
+        top: 38%;
+        right: 20px;
+        width: 300px;
+    }
+
+    .hero-content h2{
+        font-size: 32px;
+    }
+
+    .hero-content p{
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 150px;
+        transform: translateX(-40px) translateY(-20px);
+    }
+
+    .menu-btn{
+        font-size: 28px;
+        transform: translateY(-35px);
+    }
+
+    .search-bar{
+        width: 88%;
+        height: 48px;
+        bottom: 30px;
+    }
+
+    .search-bar p{
+        font-size: 15px;
+    }
+
+    .experience h2,
+    .suites h2{
+        font-size: 32px;
+    }
+
+    .experience-item{
+        min-width: 250px;
+    }
+
+    .experience-item img{
+        height: 330px;
+    }
+
+    .suite-container{
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+    }
+
+    .suite-card{
+        width: 90%;
+    }
+
+    .suite-card img{
+        height: 320px;
+    }
+
+    .contact-info{
+        flex-direction: column;
+        gap: 12px;
+    }
+}
