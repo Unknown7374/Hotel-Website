@@ -462,3 +462,45 @@ footer p{
         gap: 12px;
     }
 }
+
+@media (max-width: 768px){
+
+    .suite-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .suite-card{
+        width: 86%;
+    }
+
+    .suite-card h3{
+        font-size: 26px;
+    }
+
+    .suite-card p{
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0 22px 25px;
+    }
+
+    .suite-card button{
+        margin: 0 22px 28px;
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+
+    .experience-info p,
+    .suite-info p,
+    .contact-section p{
+        font-size: 17px;
+        line-height: 1.6;
+        padding: 0 22px;
+    }
+
+    .experience-info h3,
+    .suite-info h3{
+        font-size: 24px;
+    }
+}
